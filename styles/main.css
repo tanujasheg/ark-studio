@@ -5,14 +5,14 @@
 }
 
 /*NAVIGATION*/
-#transparent_nav{
+.transparent_nav{
     width:100%;
     height:100vh;
     background-image:url(../img/billboard.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
 }
-.nav_bar>img{
+#nav_list>img{
     margin-left:300px;
 }
 nav{
@@ -52,14 +52,14 @@ nav img{
 
 /*SERVICES*/
 
-.services_wrapper>h3{
+.serviceswrapper>h3{
     text-align: center;
     margin-top: 60px;
     color:grey;
     font-size:2rem;
     padding-bottom: 40px;
 }
-.services_wrapper{
+.serviceswrapper{
     height:90%;
     text-align: center;
 }
@@ -144,11 +144,15 @@ nav img{
 }
 
 /*RECENT WORK*/
-.recent-work>li{
+.recent_work>li{
     display:inline-block;
     width: 250px;
     height:50px;
     margin-top:100px;
+}
+.recent_work>ul>li:hover{
+    background-color: rgb(143, 46, 46);
+    transition: 0.8s all;
 }
 #order>li{
 display: inline-block;
@@ -157,7 +161,7 @@ height:400px;
 }
 
 /*TESTIMONIAL*/
-.testimonial-wrapper{
+.testimonialswrapper{
     padding:40px;
     background:white;
     color:#434343;
@@ -212,38 +216,37 @@ height:400px;
     height:50vh;
     padding: 0px;
     align-items: center;
-    background-color:darkslategrey;
+    background-color:darkslategray;
     width:100%;
     color:white;
     
 }
-#foot{
+/*#foot{
     width: 80%;
-    height:50vh;
-    background-color:darkslategray;
-    
-    margin-top: 0px;
+    height:40vh;
+    background-color:yellow;    
+    margin-top: 10px;
     margin-left:180px;
     
-}
-.bar{
+}*/
+.cta{
     width:100%;
     height:10vh;
     background:cyan;
     opacity: 0.7;
 }
-.bar>ul>li{
+.cta>ul>li{
     list-style-type:none;
     display: inline-block;
     line-height:10vh;
 }
-#cta-name{
+#cta_text{
     font-size:2rem;
-    margin-left:30px;
+    margin-left:200px;
     color:black;
 }
 
-#btn{
+#cta_link{
     padding: 12px 20px;
     margin:200px;
     background-color:black;
@@ -253,14 +256,14 @@ height:400px;
     font-weight:bold;
     transition: all .3s ease;
 }
-#btn:hover{
+#cta_link:hover{
     background-color: limegreen;
     transition: 0.8s all;
 }
 .first{
     display:inline-block;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 200px;
     padding:80px;
     font-size:1rem;
 }
@@ -278,7 +281,7 @@ font-size: 1rem;
     display:inline-block;
     margin-left: 100px;
 }
-#comp-list>li{
+#comp_list>li{
     list-style-type: none;
     font-size:1.5rem;
 }
@@ -286,7 +289,7 @@ font-size: 1rem;
     display: inline-block;
     margin-left: 200px;
 }
-#sup-list>li{
+#sup_list>li{
     list-style-type: none;
     font-size:1.2rem;
 }
@@ -299,6 +302,6 @@ font-size: 1rem;
 .rights{
     text-align: center;
     color:white;
-    margin-bottom:3px;
-    font-
+    margin-bottom:10px;
+    font-size:1rem;
 }
