@@ -217,13 +217,13 @@ nav img{
     list-style-type: none;
     display: inline-block;
     align-items: center;
-    padding:70px;
+    padding:60px;
 }
 .outer>ul>li>img{
     align-items: center;
     border-radius: 50%;
     margin-left: 240px;
-    margin-right:90px;
+    margin-right:110px;
 }
 .test-quote{
     display:block;
